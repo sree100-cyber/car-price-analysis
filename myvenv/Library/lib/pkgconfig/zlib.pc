@@ -1,0 +1,13 @@
+prefix=E:/waste-classifier/car price/myvenv/Library
+exec_prefix=E:/waste-classifier/car price/myvenv/Library
+libdir=E:/waste-classifier/car price/myvenv/Library/lib
+sharedlibdir=E:/waste-classifier/car price/myvenv/Library/lib
+includedir=E:/waste-classifier/car price/myvenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

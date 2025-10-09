@@ -1,0 +1,668 @@
+{
+  "build": "pyh1646c32_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.14.0",
+    "pandas >=1.0.5",
+    "patsy >=0.5.1",
+    "python >=3.10",
+    "scikit-learn >=1.6.0",
+    "scipy >=1.0.0",
+    "statsmodels >=0.9.0",
+    "python"
+  ],
+  "extracted_package_dir": "E:\\sree\\pkgs\\category_encoders-2.8.1-pyh1646c32_0",
+  "files": [
+    "etc/conda/test-files/category_encoders/1/src/tests/__init__.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/helpers.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_backward_difference.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_basen.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_binary.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_cat_boost.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_count.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_encoders.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_feature_names.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_glmm.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_gray.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_hashing.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_helmert.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_helpers.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_james_stein.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_leave_one_out.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_m_estimate.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_one_hot.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_ordinal.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_polynomial.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_quantile_encoder.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_rankhot.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_sum_coding.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_target_encoder.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_utils.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_woe.py",
+    "etc/conda/test-files/category_encoders/1/src/tests/test_wrapper.py",
+    "Lib/site-packages/category_encoders/__init__.py",
+    "Lib/site-packages/category_encoders/backward_difference.py",
+    "Lib/site-packages/category_encoders/base_contrast_encoder.py",
+    "Lib/site-packages/category_encoders/basen.py",
+    "Lib/site-packages/category_encoders/binary.py",
+    "Lib/site-packages/category_encoders/cat_boost.py",
+    "Lib/site-packages/category_encoders/count.py",
+    "Lib/site-packages/category_encoders/datasets/__init__.py",
+    "Lib/site-packages/category_encoders/datasets/_base.py",
+    "Lib/site-packages/category_encoders/datasets/data/compass.csv",
+    "Lib/site-packages/category_encoders/datasets/data/postcode_dataset_100.csv",
+    "Lib/site-packages/category_encoders/glmm.py",
+    "Lib/site-packages/category_encoders/gray.py",
+    "Lib/site-packages/category_encoders/hashing.py",
+    "Lib/site-packages/category_encoders/helmert.py",
+    "Lib/site-packages/category_encoders/james_stein.py",
+    "Lib/site-packages/category_encoders/leave_one_out.py",
+    "Lib/site-packages/category_encoders/m_estimate.py",
+    "Lib/site-packages/category_encoders/one_hot.py",
+    "Lib/site-packages/category_encoders/ordinal.py",
+    "Lib/site-packages/category_encoders/polynomial.py",
+    "Lib/site-packages/category_encoders/quantile_encoder.py",
+    "Lib/site-packages/category_encoders/rankhot.py",
+    "Lib/site-packages/category_encoders/sum_coding.py",
+    "Lib/site-packages/category_encoders/target_encoder.py",
+    "Lib/site-packages/category_encoders/utils.py",
+    "Lib/site-packages/category_encoders/woe.py",
+    "Lib/site-packages/category_encoders/wrapper.py",
+    "Lib/site-packages/category_encoders-2.8.1.dist-info/INSTALLER",
+    "Lib/site-packages/category_encoders-2.8.1.dist-info/LICENSE.md",
+    "Lib/site-packages/category_encoders-2.8.1.dist-info/METADATA",
+    "Lib/site-packages/category_encoders-2.8.1.dist-info/RECORD",
+    "Lib/site-packages/category_encoders-2.8.1.dist-info/REQUESTED",
+    "Lib/site-packages/category_encoders-2.8.1.dist-info/WHEEL",
+    "Lib/site-packages/category_encoders-2.8.1.dist-info/direct_url.json",
+    "Lib/site-packages/category_encoders/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/backward_difference.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/base_contrast_encoder.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/basen.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/binary.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/cat_boost.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/count.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/datasets/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/datasets/__pycache__/_base.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/glmm.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/gray.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/hashing.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/helmert.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/james_stein.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/leave_one_out.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/m_estimate.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/one_hot.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/ordinal.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/polynomial.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/quantile_encoder.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/rankhot.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/sum_coding.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/target_encoder.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/utils.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/woe.cpython-310.pyc",
+    "Lib/site-packages/category_encoders/__pycache__/wrapper.cpython-310.pyc"
+  ],
+  "fn": "category_encoders-2.8.1-pyh1646c32_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "E:\\sree\\pkgs\\category_encoders-2.8.1-pyh1646c32_0",
+    "type": 1
+  },
+  "md5": "b6b51763aa20d3fe93cde0c99d41e04b",
+  "name": "category_encoders",
+  "noarch": "python",
+  "package_tarball_full_path": "E:\\sree\\pkgs\\category_encoders-2.8.1-pyh1646c32_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "237c39af61cd2358aba92b4e5775aab151962acf5462877aca43f4a3da953da4",
+        "sha256_in_prefix": "237c39af61cd2358aba92b4e5775aab151962acf5462877aca43f4a3da953da4",
+        "size_in_bytes": 46
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "76d878ceff530f1209fe81ebb42f6258f79b38115d17e6f9591061d123b62620",
+        "sha256_in_prefix": "76d878ceff530f1209fe81ebb42f6258f79b38115d17e6f9591061d123b62620",
+        "size_in_bytes": 3252
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_backward_difference.py",
+        "path_type": "hardlink",
+        "sha256": "c0978a2cc76c2131ded56a819c39d5684848dc3387dc0c72c251355b3ffa68c0",
+        "sha256_in_prefix": "c0978a2cc76c2131ded56a819c39d5684848dc3387dc0c72c251355b3ffa68c0",
+        "size_in_bytes": 706
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_basen.py",
+        "path_type": "hardlink",
+        "sha256": "a194d235f9673a74543f80830fd928a65906c4d31c9f0dddbcfd8f87c61b7718",
+        "sha256_in_prefix": "a194d235f9673a74543f80830fd928a65906c4d31c9f0dddbcfd8f87c61b7718",
+        "size_in_bytes": 8923
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_binary.py",
+        "path_type": "hardlink",
+        "sha256": "45179aba93b962a8c53a46798cbff3657eaf8d7c76332f0770efdd75148eba0d",
+        "sha256_in_prefix": "45179aba93b962a8c53a46798cbff3657eaf8d7c76332f0770efdd75148eba0d",
+        "size_in_bytes": 1160
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_cat_boost.py",
+        "path_type": "hardlink",
+        "sha256": "a2bb0f5e29e6a3ba8af29cf13b1974a475b2f92bf8009381f6421b0baf723398",
+        "sha256_in_prefix": "a2bb0f5e29e6a3ba8af29cf13b1974a475b2f92bf8009381f6421b0baf723398",
+        "size_in_bytes": 3758
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_count.py",
+        "path_type": "hardlink",
+        "sha256": "b3665c91a3ee5bfcda98097a3ac8a7f85f880db307bc457bee0990c3344aa14f",
+        "sha256_in_prefix": "b3665c91a3ee5bfcda98097a3ac8a7f85f880db307bc457bee0990c3344aa14f",
+        "size_in_bytes": 11119
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_encoders.py",
+        "path_type": "hardlink",
+        "sha256": "1ce09ed96208bc10eb018f794fe7f80e575e6f4f428ed8d8f2c7433fb6a14dcb",
+        "sha256_in_prefix": "1ce09ed96208bc10eb018f794fe7f80e575e6f4f428ed8d8f2c7433fb6a14dcb",
+        "size_in_bytes": 43325
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_feature_names.py",
+        "path_type": "hardlink",
+        "sha256": "cd66d02c6af36ca2f33ce368b9d1c0e874a5b185d0b229e033072cbc1f487afd",
+        "sha256_in_prefix": "cd66d02c6af36ca2f33ce368b9d1c0e874a5b185d0b229e033072cbc1f487afd",
+        "size_in_bytes": 3733
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_glmm.py",
+        "path_type": "hardlink",
+        "sha256": "7d3e76653b99da4aac8c73b3d97f2d00f28b50ad8b2d0c3943ae0f97ad2ace34",
+        "sha256_in_prefix": "7d3e76653b99da4aac8c73b3d97f2d00f28b50ad8b2d0c3943ae0f97ad2ace34",
+        "size_in_bytes": 368
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_gray.py",
+        "path_type": "hardlink",
+        "sha256": "b1ae7aef4c7c6fe5bc15266d70a8aa27da839c0bac5874f235a773c2f2c83881",
+        "sha256_in_prefix": "b1ae7aef4c7c6fe5bc15266d70a8aa27da839c0bac5874f235a773c2f2c83881",
+        "size_in_bytes": 3584
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_hashing.py",
+        "path_type": "hardlink",
+        "sha256": "72fc55f5e48addbde783e57ad1e5804020584676d5e840f7f87737dd9d0278c9",
+        "sha256_in_prefix": "72fc55f5e48addbde783e57ad1e5804020584676d5e840f7f87737dd9d0278c9",
+        "size_in_bytes": 2784
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_helmert.py",
+        "path_type": "hardlink",
+        "sha256": "c4dffc99310eb96fed923200000204f3593f6716e28f9647d88cb2a895abf837",
+        "sha256_in_prefix": "c4dffc99310eb96fed923200000204f3593f6716e28f9647d88cb2a895abf837",
+        "size_in_bytes": 651
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "3d08edd2f99955cad68ff375562497e00fabca691cae3bdcac4fd6657c4516bd",
+        "sha256_in_prefix": "3d08edd2f99955cad68ff375562497e00fabca691cae3bdcac4fd6657c4516bd",
+        "size_in_bytes": 1574
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_james_stein.py",
+        "path_type": "hardlink",
+        "sha256": "bb7d1d47096060727d7f4bee454088463f38879743ff5aedee654eb659ae3c10",
+        "sha256_in_prefix": "bb7d1d47096060727d7f4bee454088463f38879743ff5aedee654eb659ae3c10",
+        "size_in_bytes": 8752
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_leave_one_out.py",
+        "path_type": "hardlink",
+        "sha256": "499acc877613c9d8e03dc50d6b00574f058d4402197f1f8cb6edae93c7cf2d98",
+        "sha256_in_prefix": "499acc877613c9d8e03dc50d6b00574f058d4402197f1f8cb6edae93c7cf2d98",
+        "size_in_bytes": 6100
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_m_estimate.py",
+        "path_type": "hardlink",
+        "sha256": "751ec03f961043bba8c0133db5c1512973025fb0bbbdcaf95497a632e49b67bb",
+        "sha256_in_prefix": "751ec03f961043bba8c0133db5c1512973025fb0bbbdcaf95497a632e49b67bb",
+        "size_in_bytes": 1153
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_one_hot.py",
+        "path_type": "hardlink",
+        "sha256": "301481b9500bb5db700c135ed49705cbb56a399a5fb92ef6bbd8d8c93913ed6d",
+        "sha256_in_prefix": "301481b9500bb5db700c135ed49705cbb56a399a5fb92ef6bbd8d8c93913ed6d",
+        "size_in_bytes": 14106
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_ordinal.py",
+        "path_type": "hardlink",
+        "sha256": "63af7078946b1959e34dd3d5f3f6d652118bafdeb525dcdacc3575623f6e3bdf",
+        "sha256_in_prefix": "63af7078946b1959e34dd3d5f3f6d652118bafdeb525dcdacc3575623f6e3bdf",
+        "size_in_bytes": 16665
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_polynomial.py",
+        "path_type": "hardlink",
+        "sha256": "40f48c71fb4a26cf0294d924486ce512447e679177ffc1659a2b1f349aa70af4",
+        "sha256_in_prefix": "40f48c71fb4a26cf0294d924486ce512447e679177ffc1659a2b1f349aa70af4",
+        "size_in_bytes": 4746
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_quantile_encoder.py",
+        "path_type": "hardlink",
+        "sha256": "7745d065f7ddda5e6cd691d7266d1426e6886162131441ce93b70db10eb37045",
+        "sha256_in_prefix": "7745d065f7ddda5e6cd691d7266d1426e6886162131441ce93b70db10eb37045",
+        "size_in_bytes": 4115
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_rankhot.py",
+        "path_type": "hardlink",
+        "sha256": "76a6b813b7d957f45c2c50db33bb75405368745fd4154be42dcde86f83584420",
+        "sha256_in_prefix": "76a6b813b7d957f45c2c50db33bb75405368745fd4154be42dcde86f83584420",
+        "size_in_bytes": 5261
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_sum_coding.py",
+        "path_type": "hardlink",
+        "sha256": "ff446735cf118bb857c53b190f2bec8cf8f620e528d4ec0b5174f8a0133e9e07",
+        "sha256_in_prefix": "ff446735cf118bb857c53b190f2bec8cf8f620e528d4ec0b5174f8a0133e9e07",
+        "size_in_bytes": 4368
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_target_encoder.py",
+        "path_type": "hardlink",
+        "sha256": "aba7f4abe2b81e920fb5b9eca9eed31d98ea63bd8e149f2f4f17ec125d72881b",
+        "sha256_in_prefix": "aba7f4abe2b81e920fb5b9eca9eed31d98ea63bd8e149f2f4f17ec125d72881b",
+        "size_in_bytes": 20002
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "411e1401964ce6a05ce8aff40473bd0f11adf84407ac697fb5a93c6f6f6942b0",
+        "sha256_in_prefix": "411e1401964ce6a05ce8aff40473bd0f11adf84407ac697fb5a93c6f6f6942b0",
+        "size_in_bytes": 7040
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_woe.py",
+        "path_type": "hardlink",
+        "sha256": "53df75918da3674f3ad819ac1720377ea9fbe6aaff60c64a8d3cf610222251c9",
+        "sha256_in_prefix": "53df75918da3674f3ad819ac1720377ea9fbe6aaff60c64a8d3cf610222251c9",
+        "size_in_bytes": 7650
+      },
+      {
+        "_path": "etc/conda/test-files/category_encoders/1/src/tests/test_wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "e02906bc82eae12cd3509b835c1c58c23b6e0387e8d08931ec17c8846863fba6",
+        "sha256_in_prefix": "e02906bc82eae12cd3509b835c1c58c23b6e0387e8d08931ec17c8846863fba6",
+        "size_in_bytes": 6389
+      },
+      {
+        "_path": "site-packages/category_encoders/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "70ef39ee24abd56d0d0e4362983c26ce7115d7c4e4eb5d9cab49d1136112c446",
+        "sha256_in_prefix": "70ef39ee24abd56d0d0e4362983c26ce7115d7c4e4eb5d9cab49d1136112c446",
+        "size_in_bytes": 1772
+      },
+      {
+        "_path": "site-packages/category_encoders/backward_difference.py",
+        "path_type": "hardlink",
+        "sha256": "9d267731adbd4c21fc0925fb8245ac3a19e553ae363cea0512ffdd506a53e6ef",
+        "sha256_in_prefix": "9d267731adbd4c21fc0925fb8245ac3a19e553ae363cea0512ffdd506a53e6ef",
+        "size_in_bytes": 3470
+      },
+      {
+        "_path": "site-packages/category_encoders/base_contrast_encoder.py",
+        "path_type": "hardlink",
+        "sha256": "4a5fccf9c23a161d7c596a47e048c2e9f6ce87dc08f9cd77c75fdd7ad524e192",
+        "sha256_in_prefix": "4a5fccf9c23a161d7c596a47e048c2e9f6ce87dc08f9cd77c75fdd7ad524e192",
+        "size_in_bytes": 6445
+      },
+      {
+        "_path": "site-packages/category_encoders/basen.py",
+        "path_type": "hardlink",
+        "sha256": "f5efd31179a7073522591570d08e8a7c18e9d3776a14ff43466247afb7437619",
+        "sha256_in_prefix": "f5efd31179a7073522591570d08e8a7c18e9d3776a14ff43466247afb7437619",
+        "size_in_bytes": 12100
+      },
+      {
+        "_path": "site-packages/category_encoders/binary.py",
+        "path_type": "hardlink",
+        "sha256": "921400af373b34fe8aa804c532034649f8756cb390565539d4133471dba32edb",
+        "sha256_in_prefix": "921400af373b34fe8aa804c532034649f8756cb390565539d4133471dba32edb",
+        "size_in_bytes": 2931
+      },
+      {
+        "_path": "site-packages/category_encoders/cat_boost.py",
+        "path_type": "hardlink",
+        "sha256": "e48375067e142d906ab67567acfdf9b3ed64c59fe8f04abf8fb4e8074789c16b",
+        "sha256_in_prefix": "e48375067e142d906ab67567acfdf9b3ed64c59fe8f04abf8fb4e8074789c16b",
+        "size_in_bytes": 8735
+      },
+      {
+        "_path": "site-packages/category_encoders/count.py",
+        "path_type": "hardlink",
+        "sha256": "7947d110739008579b7edcc88ef10f5ae74b07c2cc244c91dd0666770e232889",
+        "sha256_in_prefix": "7947d110739008579b7edcc88ef10f5ae74b07c2cc244c91dd0666770e232889",
+        "size_in_bytes": 13506
+      },
+      {
+        "_path": "site-packages/category_encoders/datasets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d92b2ce667fa330c014d8e8a2a98540906063ef88fe02806e8006730d4cc196e",
+        "sha256_in_prefix": "d92b2ce667fa330c014d8e8a2a98540906063ef88fe02806e8006730d4cc196e",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "site-packages/category_encoders/datasets/_base.py",
+        "path_type": "hardlink",
+        "sha256": "4b77339ea7ffb966892b42511633fd97a95e4f85d94966aabdcd79a5aad7cf20",
+        "sha256_in_prefix": "4b77339ea7ffb966892b42511633fd97a95e4f85d94966aabdcd79a5aad7cf20",
+        "size_in_bytes": 2094
+      },
+      {
+        "_path": "site-packages/category_encoders/datasets/data/compass.csv",
+        "path_type": "hardlink",
+        "sha256": "5713cf1e28f6da68016fcefc61e1edb14467bd24c6aa6ebed2da043b6e874d90",
+        "sha256_in_prefix": "5713cf1e28f6da68016fcefc61e1edb14467bd24c6aa6ebed2da043b6e874d90",
+        "size_in_bytes": 191
+      },
+      {
+        "_path": "site-packages/category_encoders/datasets/data/postcode_dataset_100.csv",
+        "path_type": "hardlink",
+        "sha256": "15e28f1c2a05de11816dffe56660f69b38809d993aa5105749a062449a581052",
+        "sha256_in_prefix": "15e28f1c2a05de11816dffe56660f69b38809d993aa5105749a062449a581052",
+        "size_in_bytes": 3713
+      },
+      {
+        "_path": "site-packages/category_encoders/glmm.py",
+        "path_type": "hardlink",
+        "sha256": "dd986af4d17148fc92fc724de2a8102651e5819d3b534129bdc0fe4553e16008",
+        "sha256_in_prefix": "dd986af4d17148fc92fc724de2a8102651e5819d3b534129bdc0fe4553e16008",
+        "size_in_bytes": 10384
+      },
+      {
+        "_path": "site-packages/category_encoders/gray.py",
+        "path_type": "hardlink",
+        "sha256": "da776f988636b73a94f2a3e4a4c62be7a3ed73e7641dfd6e31644923cefc94eb",
+        "sha256_in_prefix": "da776f988636b73a94f2a3e4a4c62be7a3ed73e7641dfd6e31644923cefc94eb",
+        "size_in_bytes": 5524
+      },
+      {
+        "_path": "site-packages/category_encoders/hashing.py",
+        "path_type": "hardlink",
+        "sha256": "b3d8abf5bc578515bee59133c50d036686b122a6e969695d1ec7a2f0d2340391",
+        "sha256_in_prefix": "b3d8abf5bc578515bee59133c50d036686b122a6e969695d1ec7a2f0d2340391",
+        "size_in_bytes": 12545
+      },
+      {
+        "_path": "site-packages/category_encoders/helmert.py",
+        "path_type": "hardlink",
+        "sha256": "3abb96652924cd8e8be182a136d3951f22fbb1c063643e80bb4e924ba0240d7e",
+        "sha256_in_prefix": "3abb96652924cd8e8be182a136d3951f22fbb1c063643e80bb4e924ba0240d7e",
+        "size_in_bytes": 3486
+      },
+      {
+        "_path": "site-packages/category_encoders/james_stein.py",
+        "path_type": "hardlink",
+        "sha256": "dc572106e66580c46e7d1e82694fe2afd0bdf72d3e4b5733325a9cc4cab7a916",
+        "sha256_in_prefix": "dc572106e66580c46e7d1e82694fe2afd0bdf72d3e4b5733325a9cc4cab7a916",
+        "size_in_bytes": 21784
+      },
+      {
+        "_path": "site-packages/category_encoders/leave_one_out.py",
+        "path_type": "hardlink",
+        "sha256": "56cf48c6730ca36dd731fb865af637a50a3f2565643e2db1fc978732250d4759",
+        "sha256_in_prefix": "56cf48c6730ca36dd731fb865af637a50a3f2565643e2db1fc978732250d4759",
+        "size_in_bytes": 7878
+      },
+      {
+        "_path": "site-packages/category_encoders/m_estimate.py",
+        "path_type": "hardlink",
+        "sha256": "c544a29f0367f55bd825d72793661e112099486a60edcfe695a41be6c81a5338",
+        "sha256_in_prefix": "c544a29f0367f55bd825d72793661e112099486a60edcfe695a41be6c81a5338",
+        "size_in_bytes": 7380
+      },
+      {
+        "_path": "site-packages/category_encoders/one_hot.py",
+        "path_type": "hardlink",
+        "sha256": "62812c0b41cb0eec111722fe93b332703761b1a4b1bd488aafc9a37bfcaf7d96",
+        "sha256_in_prefix": "62812c0b41cb0eec111722fe93b332703761b1a4b1bd488aafc9a37bfcaf7d96",
+        "size_in_bytes": 12639
+      },
+      {
+        "_path": "site-packages/category_encoders/ordinal.py",
+        "path_type": "hardlink",
+        "sha256": "121c52ee39199b910a9ebfc28c2e9c3dcf3a4d5c71088d54bda80cd1e5e4a726",
+        "sha256_in_prefix": "121c52ee39199b910a9ebfc28c2e9c3dcf3a4d5c71088d54bda80cd1e5e4a726",
+        "size_in_bytes": 13233
+      },
+      {
+        "_path": "site-packages/category_encoders/polynomial.py",
+        "path_type": "hardlink",
+        "sha256": "375680d09b6d798b63582f88bb664508d8ca773448cab1bf0426b7ba20f52e94",
+        "sha256_in_prefix": "375680d09b6d798b63582f88bb664508d8ca773448cab1bf0426b7ba20f52e94",
+        "size_in_bytes": 3439
+      },
+      {
+        "_path": "site-packages/category_encoders/quantile_encoder.py",
+        "path_type": "hardlink",
+        "sha256": "d11fbf8f7a5e3200148b60438f527145beb0d23a767998cbdce0f329265322ce",
+        "sha256_in_prefix": "d11fbf8f7a5e3200148b60438f527145beb0d23a767998cbdce0f329265322ce",
+        "size_in_bytes": 18180
+      },
+      {
+        "_path": "site-packages/category_encoders/rankhot.py",
+        "path_type": "hardlink",
+        "sha256": "fabccc1b06071dec9dce222759153f82504614c6005a8846efa6e5890937136b",
+        "sha256_in_prefix": "fabccc1b06071dec9dce222759153f82504614c6005a8846efa6e5890937136b",
+        "size_in_bytes": 11087
+      },
+      {
+        "_path": "site-packages/category_encoders/sum_coding.py",
+        "path_type": "hardlink",
+        "sha256": "651799c9202ff1072ffc93389ea08951d7eb6ba96fe25ead71417a8e79c6e1ec",
+        "sha256_in_prefix": "651799c9202ff1072ffc93389ea08951d7eb6ba96fe25ead71417a8e79c6e1ec",
+        "size_in_bytes": 3439
+      },
+      {
+        "_path": "site-packages/category_encoders/target_encoder.py",
+        "path_type": "hardlink",
+        "sha256": "267e516a1aaed0b9ba0470e6a737815ab1920044fa2085237d394dccb3c9abd4",
+        "sha256_in_prefix": "267e516a1aaed0b9ba0470e6a737815ab1920044fa2085237d394dccb3c9abd4",
+        "size_in_bytes": 14423
+      },
+      {
+        "_path": "site-packages/category_encoders/utils.py",
+        "path_type": "hardlink",
+        "sha256": "c181ffe512b6ef69b729d0aeeda6f99c0a64c746d0981e30339f5d78702f2b36",
+        "sha256_in_prefix": "c181ffe512b6ef69b729d0aeeda6f99c0a64c746d0981e30339f5d78702f2b36",
+        "size_in_bytes": 23649
+      },
+      {
+        "_path": "site-packages/category_encoders/woe.py",
+        "path_type": "hardlink",
+        "sha256": "6b72bc4bb151ca632ee0622091c72c6420b3550df41762771871d2e8aff86f66",
+        "sha256_in_prefix": "6b72bc4bb151ca632ee0622091c72c6420b3550df41762771871d2e8aff86f66",
+        "size_in_bytes": 7668
+      },
+      {
+        "_path": "site-packages/category_encoders/wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "7a34064de9ea5f0e201d52512ce7b3288b10205e5d4109b5a11c0baf67581b35",
+        "sha256_in_prefix": "7a34064de9ea5f0e201d52512ce7b3288b10205e5d4109b5a11c0baf67581b35",
+        "size_in_bytes": 13302
+      },
+      {
+        "_path": "site-packages/category_encoders-2.8.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "sha256_in_prefix": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/category_encoders-2.8.1.dist-info/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "0188df785612557f9346ce6e466994929a5bb0ee081c345ed2d3645368dd0be0",
+        "sha256_in_prefix": "0188df785612557f9346ce6e466994929a5bb0ee081c345ed2d3645368dd0be0",
+        "size_in_bytes": 1486
+      },
+      {
+        "_path": "site-packages/category_encoders-2.8.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2ee28c4a592e0c45d9737929ffa8335ff1ef331ed9980317eeec6d301b52d7cd",
+        "sha256_in_prefix": "2ee28c4a592e0c45d9737929ffa8335ff1ef331ed9980317eeec6d301b52d7cd",
+        "size_in_bytes": 7866
+      },
+      {
+        "_path": "site-packages/category_encoders-2.8.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d6b414370a7330117fd83221e7f137f40677977f1fed48220e4362bcaaca8f59",
+        "sha256_in_prefix": "d6b414370a7330117fd83221e7f137f40677977f1fed48220e4362bcaaca8f59",
+        "size_in_bytes": 4714
+      },
+      {
+        "_path": "site-packages/category_encoders-2.8.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/category_encoders-2.8.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5db7990de4d629cd70ec2488cab7b968c0d4ffe3e8851c1341c7989e2b086186",
+        "sha256_in_prefix": "5db7990de4d629cd70ec2488cab7b968c0d4ffe3e8851c1341c7989e2b086186",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "site-packages/category_encoders-2.8.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "102e346b4c64228b26675e54528d10c6222831f3de1ab038aa587baa0ba19af9",
+        "sha256_in_prefix": "102e346b4c64228b26675e54528d10c6222831f3de1ab038aa587baa0ba19af9",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/backward_difference.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/base_contrast_encoder.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/basen.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/binary.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/cat_boost.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/count.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/datasets/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/datasets/__pycache__/_base.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/glmm.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/gray.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/hashing.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/helmert.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/james_stein.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/leave_one_out.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/m_estimate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/one_hot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/ordinal.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/polynomial.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/quantile_encoder.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/rankhot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/sum_coding.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/target_encoder.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/woe.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/category_encoders/__pycache__/wrapper.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "category_encoders",
+  "sha256": "7e7731b0df706b395d7658d32c36783f837a7e788a5fa14dafd4a0b96a4b18ae",
+  "size": 82335,
+  "subdir": "noarch",
+  "timestamp": 1742135706000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/category_encoders-2.8.1-pyh1646c32_0.conda",
+  "version": "2.8.1"
+}

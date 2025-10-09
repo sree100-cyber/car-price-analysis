@@ -21,3 +21,45 @@
 +defaults/win-64::xz-5.6.4-h4754444_1
 +defaults/win-64::zlib-1.3.1-h02ab6af_0
 # update specs: ['python=3.10']
+==> 2025-10-09 19:50:47 <==
+# cmd: E:\sree\Scripts\conda-script.py install -c conda-forge xgboost
+# conda version: 25.5.1
+-defaults/win-64::ca-certificates-2025.9.9-haa95532_0
+-defaults/win-64::openssl-3.0.18-h543e019_0
++conda-forge/noarch::ca-certificates-2025.10.5-h4c7d964_0
++conda-forge/noarch::joblib-1.5.2-pyhd8ed1ab_0
++conda-forge/noarch::py-xgboost-3.0.5-cpu_pyh35227d3_1
++conda-forge/noarch::threadpoolctl-3.6.0-pyhecae5ae_0
++conda-forge/noarch::xgboost-3.0.5-cpu_pyhb39878e_1
++conda-forge/win-64::_openmp_mutex-4.5-2_gnu
++conda-forge/win-64::libblas-3.9.0-35_h5709861_mkl
++conda-forge/win-64::libcblas-3.9.0-35_h2a3cdd5_mkl
++conda-forge/win-64::libgomp-15.2.0-h1383e82_7
++conda-forge/win-64::libhwloc-2.12.1-default_h88281d1_1000
++conda-forge/win-64::libiconv-1.18-hc1393d2_2
++conda-forge/win-64::liblapack-3.9.0-35_hf9ab0e9_mkl
++conda-forge/win-64::libwinpthread-12.0.0.r4.gg4f2fc60ca-h57928b3_10
++conda-forge/win-64::libxgboost-3.0.5-cpu_hd161407_1
++conda-forge/win-64::libxml2-2.13.8-h741aa76_1
++conda-forge/win-64::llvm-openmp-21.1.2-hfa2b4ca_3
++conda-forge/win-64::mkl-2024.2.2-h57928b3_16
++conda-forge/win-64::numpy-2.2.6-py310h4987827_0
++conda-forge/win-64::openssl-3.5.4-h725018a_0
++conda-forge/win-64::python_abi-3.10-2_cp310
++conda-forge/win-64::scikit-learn-1.7.2-py310h21054b0_0
++conda-forge/win-64::scipy-1.15.2-py310h15c175c_0
++conda-forge/win-64::tbb-2021.13.0-h18a62a1_3
+# update specs: ['xgboost']
+==> 2025-10-09 19:55:06 <==
+# cmd: E:\sree\Scripts\conda-script.py install -c conda-forge category_encoders
+# conda version: 25.5.1
++conda-forge/noarch::category_encoders-2.8.1-pyh1646c32_0
++conda-forge/noarch::packaging-25.0-pyh29332c3_1
++conda-forge/noarch::patsy-1.0.1-pyhd8ed1ab_1
++conda-forge/noarch::python-dateutil-2.9.0.post0-pyhe01879c_2
++conda-forge/noarch::python-tzdata-2025.2-pyhd8ed1ab_0
++conda-forge/noarch::pytz-2025.2-pyhd8ed1ab_0
++conda-forge/noarch::six-1.17.0-pyhe01879c_1
++conda-forge/win-64::pandas-2.3.3-py310hed136d8_1
++conda-forge/win-64::statsmodels-0.14.5-py310h8f3aa81_1
+# update specs: ['category_encoders']

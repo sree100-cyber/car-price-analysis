@@ -1,0 +1,34 @@
+{
+  "build": "cpu_pyhb39878e_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "py-xgboost 3.0.5 cpu_pyh35227d3_1",
+    "python >=3.10"
+  ],
+  "extracted_package_dir": "E:\\sree\\pkgs\\xgboost-3.0.5-cpu_pyhb39878e_1",
+  "files": [],
+  "fn": "xgboost-3.0.5-cpu_pyhb39878e_1.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "E:\\sree\\pkgs\\xgboost-3.0.5-cpu_pyhb39878e_1",
+    "type": 1
+  },
+  "md5": "87c57a6f2eb405b13eaae737f892f265",
+  "name": "xgboost",
+  "noarch": "python",
+  "package_tarball_full_path": "E:\\sree\\pkgs\\xgboost-3.0.5-cpu_pyhb39878e_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "xgboost",
+  "sha256": "2f1d227dccd8cef311a3a78db028832231027ccf6636b89ff7f0595b25d5c50f",
+  "size": 16592,
+  "subdir": "noarch",
+  "timestamp": 1758009739000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/xgboost-3.0.5-cpu_pyhb39878e_1.conda",
+  "version": "3.0.5"
+}

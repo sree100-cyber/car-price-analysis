@@ -1,0 +1,12 @@
+prefix=E:/waste-classifier/car price/myvenv/Library/mingw-w64
+version=3.0.5
+exec_prefix=${prefix}/bin
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: xgboost
+Description: XGBoost - Scalable and Flexible Gradient Boosting.
+Version: ${version}
+
+Cflags: -I${includedir}
+Libs: -L${libdir} -lxgboost

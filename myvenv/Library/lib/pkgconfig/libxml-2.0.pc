@@ -1,0 +1,11 @@
+prefix=E:/waste-classifier/car price/myvenv/Library 
+exec_prefix=E:/waste-classifier/car price/myvenv/Library 
+libdir=E:/waste-classifier/car price/myvenv/Library/lib 
+includedir=E:/waste-classifier/car price/myvenv/Library/include 
+modules=0 
+Name: libXML 
+Version: 2.13.8 
+Description: libXML library version2. 
+Requires: 
+Libs: -LE:/waste-classifier/car price/myvenv/Library/lib -lxml2 -liconv -lz 
+Cflags: -IE:/waste-classifier/car price/myvenv/Library/include/libxml2 -IE:/waste-classifier/car price/myvenv/Library/include 
